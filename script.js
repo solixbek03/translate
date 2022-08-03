@@ -2,31 +2,31 @@ var elForm =document.querySelector(".header__form");
 var elInput =document.querySelector(".header__input");
 var elText =document.querySelector(".header__text");
 
-var elNone = "";
+var None = "";
 var elMonday = "dushanba";
-var elTuesday = "seshanba";
-var elWednesday = "chorshanba";
-var elThursday = "payshanba";
-var elFriday = "juma";
-var elSaturday = "shanba";
-var elSunday = "yakshanba";
+var Tuesday = "seshanba";
+var Wednesday = "chorshanba";
+var Thursday = "payshanba";
+var Friday = "juma";
+var Saturday = "shanba";
+var Sunday = "yakshanba";
 
 elForm.addEventListener('submit', function (evt) {
 	evt.preventDefault();
 	
-  if (elInput.value == elMonday) {
+  if (elInput.value == Monday) {
     elText.textContent = "monday";
-  } else if (elInput.value == elTuesday) {
+  } else if (elInput.value == Tuesday) {
     elText.textContent = "tuesday";
-  } else if (elInput.value == elWednesday) {
+  } else if (elInput.value == Wednesday) {
     elText.textContent = "wednesday";
-  } else if (elInput.value == elThursday) {
+  } else if (elInput.value == Thursday) {
     elText.textContent = "thursday";
-  } else if (elInput.value == elFriday) {
+  } else if (elInput.value == Friday) {
     elText.textContent = "friday";
-  } else if (elInput.value == elSaturday) {
+  } else if (elInput.value == Saturday) {
     elText.textContent = "saturday";
-  } else if (elInput.value == elSaturday) {
+  } else if (elInput.value == Saturday) {
     elText.textContent = "sunday";
   } else {
     elText.textContent = "Itlimos hafta kunini kiriting";
